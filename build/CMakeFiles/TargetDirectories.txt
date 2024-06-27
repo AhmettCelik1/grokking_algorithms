@@ -1,0 +1,5 @@
+/home/ahmet/workspace/grokking_algorithms/build/CMakeFiles/selection_sort.dir
+/home/ahmet/workspace/grokking_algorithms/build/CMakeFiles/binary_search.dir
+/home/ahmet/workspace/grokking_algorithms/build/CMakeFiles/quick_sort.dir
+/home/ahmet/workspace/grokking_algorithms/build/CMakeFiles/edit_cache.dir
+/home/ahmet/workspace/grokking_algorithms/build/CMakeFiles/rebuild_cache.dir

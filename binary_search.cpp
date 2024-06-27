@@ -72,8 +72,8 @@ int main()
 {
 std::cout<<std::endl;
 int array[]{11,2,21,24,534,23,34,32,32,54,23,235,1};
-int aranan_değer=54;
-std::cout<<"aranan değer: "<<aranan_değer<<std::endl;
+int aranan_deger=54;
+std::cout<<"aranan deger: "<<aranan_deger<<std::endl;
 int size= sizeof(array)/sizeof(int);
 std::cout<<"Before Selection Sort"<<std::endl;
 print_array(array,size);
@@ -83,7 +83,7 @@ selection_sort(array,size);
 print_array(array,size);
 std::cout<<std::endl;
 std::cout<<"After Binary Search "<<std::endl;
-int aranan_index=binary_search(array,size ,aranan_değer);
+int aranan_index=binary_search(array,size ,aranan_deger);
 std::cout<<"aranan_index: "<<aranan_index<<std::endl;
 std::cout<<"aranan_index_value :"<<array[aranan_index]<<std::endl;
 
