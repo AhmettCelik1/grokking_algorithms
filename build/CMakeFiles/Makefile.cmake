@@ -49,4 +49,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/selection_sort.dir/DependInfo.cmake"
   "CMakeFiles/binary_search.dir/DependInfo.cmake"
   "CMakeFiles/quick_sort.dir/DependInfo.cmake"
+  "CMakeFiles/quick_sort_beta.dir/DependInfo.cmake"
+  "CMakeFiles/hash_table.dir/DependInfo.cmake"
   )

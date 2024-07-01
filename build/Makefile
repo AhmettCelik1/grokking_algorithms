@@ -155,6 +155,32 @@ quick_sort/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/quick_sort.dir/build.make CMakeFiles/quick_sort.dir/build
 .PHONY : quick_sort/fast
 
+#=============================================================================
+# Target rules for targets named quick_sort_beta
+
+# Build rule for target.
+quick_sort_beta: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 quick_sort_beta
+.PHONY : quick_sort_beta
+
+# fast build rule for target.
+quick_sort_beta/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/quick_sort_beta.dir/build.make CMakeFiles/quick_sort_beta.dir/build
+.PHONY : quick_sort_beta/fast
+
+#=============================================================================
+# Target rules for targets named hash_table
+
+# Build rule for target.
+hash_table: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hash_table
+.PHONY : hash_table
+
+# fast build rule for target.
+hash_table/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hash_table.dir/build.make CMakeFiles/hash_table.dir/build
+.PHONY : hash_table/fast
+
 binary_search.o: binary_search.cpp.o
 .PHONY : binary_search.o
 
@@ -179,6 +205,30 @@ binary_search.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/binary_search.dir/build.make CMakeFiles/binary_search.dir/binary_search.cpp.s
 .PHONY : binary_search.cpp.s
 
+hash_table.o: hash_table.cpp.o
+.PHONY : hash_table.o
+
+# target to build an object file
+hash_table.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hash_table.dir/build.make CMakeFiles/hash_table.dir/hash_table.cpp.o
+.PHONY : hash_table.cpp.o
+
+hash_table.i: hash_table.cpp.i
+.PHONY : hash_table.i
+
+# target to preprocess a source file
+hash_table.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hash_table.dir/build.make CMakeFiles/hash_table.dir/hash_table.cpp.i
+.PHONY : hash_table.cpp.i
+
+hash_table.s: hash_table.cpp.s
+.PHONY : hash_table.s
+
+# target to generate assembly for a file
+hash_table.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hash_table.dir/build.make CMakeFiles/hash_table.dir/hash_table.cpp.s
+.PHONY : hash_table.cpp.s
+
 quick_sort.o: quick_sort.cpp.o
 .PHONY : quick_sort.o
 
@@ -202,6 +252,30 @@ quick_sort.s: quick_sort.cpp.s
 quick_sort.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/quick_sort.dir/build.make CMakeFiles/quick_sort.dir/quick_sort.cpp.s
 .PHONY : quick_sort.cpp.s
+
+quick_sort_beta.o: quick_sort_beta.cpp.o
+.PHONY : quick_sort_beta.o
+
+# target to build an object file
+quick_sort_beta.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/quick_sort_beta.dir/build.make CMakeFiles/quick_sort_beta.dir/quick_sort_beta.cpp.o
+.PHONY : quick_sort_beta.cpp.o
+
+quick_sort_beta.i: quick_sort_beta.cpp.i
+.PHONY : quick_sort_beta.i
+
+# target to preprocess a source file
+quick_sort_beta.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/quick_sort_beta.dir/build.make CMakeFiles/quick_sort_beta.dir/quick_sort_beta.cpp.i
+.PHONY : quick_sort_beta.cpp.i
+
+quick_sort_beta.s: quick_sort_beta.cpp.s
+.PHONY : quick_sort_beta.s
+
+# target to generate assembly for a file
+quick_sort_beta.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/quick_sort_beta.dir/build.make CMakeFiles/quick_sort_beta.dir/quick_sort_beta.cpp.s
+.PHONY : quick_sort_beta.cpp.s
 
 selection_sort.o: selection_sort.cpp.o
 .PHONY : selection_sort.o
@@ -236,14 +310,22 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... binary_search"
+	@echo "... hash_table"
 	@echo "... quick_sort"
+	@echo "... quick_sort_beta"
 	@echo "... selection_sort"
 	@echo "... binary_search.o"
 	@echo "... binary_search.i"
 	@echo "... binary_search.s"
+	@echo "... hash_table.o"
+	@echo "... hash_table.i"
+	@echo "... hash_table.s"
 	@echo "... quick_sort.o"
 	@echo "... quick_sort.i"
 	@echo "... quick_sort.s"
+	@echo "... quick_sort_beta.o"
+	@echo "... quick_sort_beta.i"
+	@echo "... quick_sort_beta.s"
 	@echo "... selection_sort.o"
 	@echo "... selection_sort.i"
 	@echo "... selection_sort.s"

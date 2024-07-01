@@ -66,6 +66,8 @@ CMAKE_BINARY_DIR = /home/ahmet/workspace/grokking_algorithms/build
 all: CMakeFiles/selection_sort.dir/all
 all: CMakeFiles/binary_search.dir/all
 all: CMakeFiles/quick_sort.dir/all
+all: CMakeFiles/quick_sort_beta.dir/all
+all: CMakeFiles/hash_table.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -76,6 +78,8 @@ preinstall:
 clean: CMakeFiles/selection_sort.dir/clean
 clean: CMakeFiles/binary_search.dir/clean
 clean: CMakeFiles/quick_sort.dir/clean
+clean: CMakeFiles/quick_sort_beta.dir/clean
+clean: CMakeFiles/hash_table.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -85,7 +89,7 @@ clean: CMakeFiles/quick_sort.dir/clean
 CMakeFiles/selection_sort.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/selection_sort.dir/build.make CMakeFiles/selection_sort.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/selection_sort.dir/build.make CMakeFiles/selection_sort.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ahmet/workspace/grokking_algorithms/build/CMakeFiles --progress-num=5,6 "Built target selection_sort"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ahmet/workspace/grokking_algorithms/build/CMakeFiles --progress-num=9,10 "Built target selection_sort"
 .PHONY : CMakeFiles/selection_sort.dir/all
 
 # Build rule for subdir invocation for target.
@@ -137,7 +141,7 @@ CMakeFiles/binary_search.dir/clean:
 CMakeFiles/quick_sort.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/quick_sort.dir/build.make CMakeFiles/quick_sort.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/quick_sort.dir/build.make CMakeFiles/quick_sort.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ahmet/workspace/grokking_algorithms/build/CMakeFiles --progress-num=3,4 "Built target quick_sort"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ahmet/workspace/grokking_algorithms/build/CMakeFiles --progress-num=5,6 "Built target quick_sort"
 .PHONY : CMakeFiles/quick_sort.dir/all
 
 # Build rule for subdir invocation for target.
@@ -155,6 +159,58 @@ quick_sort: CMakeFiles/quick_sort.dir/rule
 CMakeFiles/quick_sort.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/quick_sort.dir/build.make CMakeFiles/quick_sort.dir/clean
 .PHONY : CMakeFiles/quick_sort.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/quick_sort_beta.dir
+
+# All Build rule for target.
+CMakeFiles/quick_sort_beta.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/quick_sort_beta.dir/build.make CMakeFiles/quick_sort_beta.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/quick_sort_beta.dir/build.make CMakeFiles/quick_sort_beta.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ahmet/workspace/grokking_algorithms/build/CMakeFiles --progress-num=7,8 "Built target quick_sort_beta"
+.PHONY : CMakeFiles/quick_sort_beta.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/quick_sort_beta.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ahmet/workspace/grokking_algorithms/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/quick_sort_beta.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ahmet/workspace/grokking_algorithms/build/CMakeFiles 0
+.PHONY : CMakeFiles/quick_sort_beta.dir/rule
+
+# Convenience name for target.
+quick_sort_beta: CMakeFiles/quick_sort_beta.dir/rule
+.PHONY : quick_sort_beta
+
+# clean rule for target.
+CMakeFiles/quick_sort_beta.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/quick_sort_beta.dir/build.make CMakeFiles/quick_sort_beta.dir/clean
+.PHONY : CMakeFiles/quick_sort_beta.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/hash_table.dir
+
+# All Build rule for target.
+CMakeFiles/hash_table.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hash_table.dir/build.make CMakeFiles/hash_table.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hash_table.dir/build.make CMakeFiles/hash_table.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ahmet/workspace/grokking_algorithms/build/CMakeFiles --progress-num=3,4 "Built target hash_table"
+.PHONY : CMakeFiles/hash_table.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/hash_table.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ahmet/workspace/grokking_algorithms/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/hash_table.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ahmet/workspace/grokking_algorithms/build/CMakeFiles 0
+.PHONY : CMakeFiles/hash_table.dir/rule
+
+# Convenience name for target.
+hash_table: CMakeFiles/hash_table.dir/rule
+.PHONY : hash_table
+
+# clean rule for target.
+CMakeFiles/hash_table.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hash_table.dir/build.make CMakeFiles/hash_table.dir/clean
+.PHONY : CMakeFiles/hash_table.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
